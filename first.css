@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style:initial;
+}
+body{
+    /* background: #081b29; */
+    color: #ededed;
+    background: #081b29;
+
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+ padding: 20px 10%;
+ background: transparent;
+ display: flex;
+ justify-content: space-between;
+ align-items:center ;
+ z-index: 100;
+ background-color: #459191;
+}
+.logo{
+    font-size: 40px;
+    color: #b3d0ff;
+    text-decoration: none;
+    font-weight: 500;
+
+
+}
+.navbar a{
+    font-size: 25px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 400;
+    justify-content: space-between;
+    margin-left: 45px;
+    transition: .3s;
+}
+.navbar a:hover, 
+.navbar a.active
+{
+    color: #1c2c2c;;
+}
+.navbar a.activate{
+    color: #459191;
+    
+}
+.navbar a.contact{
+    color:#459191;
+}
+.home{
+    display: flex;
+    background-image: url(../alaa.jfif) ;
+    background-size: calc(10px 40px);
+    background-position: right ;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    padding: 0 90px;
+}
+.cv{
+    font-size: 15px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 400;
+    justify-content: center;
+    margin: 10px;
+    transition: .5s;
+    
+}
+.home-content{
+    max-width: 600px;
+    
+
+}
+img{
+    height: 450px;
+    width: 450px;
+    border-radius: 100%;
+
+}
+.home-content h1{
+    color: #0ecdcd;;
+    font-size: 56px;
+    font-weight: 700;
+}
+.home-content p{
+    margin: 20px 0 40px;
+    font-size: 20px;
+    font-weight: 600;
+    color:#0ecdcd;
+}
+.home-content h3{
+    margin: 20px 0 10px;
+    font-size: 20px;
+    font-weight: 600;
+    color:#0ecdcd;
+}
+.home-content .btn-box{
+    width: 345px;
+    height: 50px;
+   
+}
+.btn-box a{
+    display: inline-flex;
+    width: 250px;
+    height: 80px;
+    border: 2px solid #b3d0ff ;
+    border-radius: 50px;
+    font-size: 15px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 2px ;
+    text-align:center;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    margin: 20px ;
+}
+.btn-box a:hover{
+background-color: #00b3ea;}
